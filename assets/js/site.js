@@ -480,8 +480,7 @@
 
   R.contact = function (el) {
     var L = P.links;
-    var rows = [["Email", email(), "mail", "mailto:" + email()], ["Phone", P.phone, "phone", "tel:" + (P.phone || "").replace(/[^+\d]/g, "")],
-      ["Scholar", "Google Scholar profile", "scholar", L.scholar], ["GitHub", L.github.replace(/^https?:\/\//, ""), "github", L.github],
+    var rows = [["Email", email(), "mail", "mailto:" + email()],       ["Scholar", "Google Scholar profile", "scholar", L.scholar], ["GitHub", L.github.replace(/^https?:\/\//, ""), "github", L.github],
       ["LinkedIn", L.linkedin.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, ""), "linkedin", L.linkedin], ["CV", "View or download", "cv", "#cv"]];
     el.innerHTML = '<ul class="contact-list">' + rows.map(function (r) {
       var ext = /^https?:/.test(r[3]);

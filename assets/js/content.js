@@ -10,7 +10,6 @@ window.SITE = {
     name: "Soorya Ram Shimgekar",
     affiliation: "University of Illinois Urbana-Champaign",
     email: { user: "sooryas2", domain: "illinois.edu" },
-    phone: "+1 (447) 902-0530",
     address: ["Siebel Center for Computer Science", "201 N. Goodwin Ave.", "Urbana, IL 61801, USA"],
     links: {
       scholar: "https://scholar.google.com/citations?user=zgO6a_wAAAAJ&hl=en",

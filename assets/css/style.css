@@ -227,7 +227,7 @@ strong, b { font-weight: 600; }
 .plink:hover { color: var(--orange-text); border-color: var(--orange); transform: translateY(-1px); }
 .plink--cv { background: var(--btn-bg); border-color: var(--btn-bg); color: var(--btn-ink); }
 .plink--cv:hover { color: var(--btn-ink); border-color: var(--btn-bg); }
-.portrait__img { position: absolute; inset: 9%; border-radius: 50%; overflow: hidden; box-shadow: var(--shadow-lg); border: 5px solid var(--surface); }
+.portrait__img { position: absolute; inset: 4%; border-radius: 50%; overflow: hidden; box-shadow: var(--shadow-lg); border: 5px solid var(--surface); }
 .portrait__img img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 30%; }
 .portrait__ring { position: absolute; inset: 2%; border-radius: 50%; border: 1.5px dashed color-mix(in srgb, var(--turq) 70%, transparent); animation: spin 60s linear infinite; }
 .portrait__ring::before, .portrait__ring::after { content: ""; position: absolute; width: 14px; height: 14px; border-radius: 50%; }
