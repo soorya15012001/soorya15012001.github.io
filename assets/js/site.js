@@ -443,7 +443,10 @@
       return '<li class="tl-item reveal' + (x.current ? " is-current" : "") + '"><div class="tl-when">' + esc(x.when) + '</div><div class="tl-body"><h3>' + esc(x.role) + "</h3>" +
         '<div class="tl-org">' + (x.url ? '<a href="' + attr(x.url) + '" target="_blank" rel="noopener">' + esc(x.org) + "</a>" : "<span>" + esc(x.org) + "</span>") + '<span class="where">' + esc(x.where) + "</span></div>" +
         (x.bullets && x.bullets.length ? "<ul>" + x.bullets.map(function (b) { return "<li>" + b + "</li>"; }).join("") + "</ul>" : "") +
-        (x.tags ? '<div class="tl-tags">' + x.tags.map(function (t) { return '<span class="badge">' + esc(t) + "</span>"; }).join("") + "</div>" : "") + "</div></li>";
+        (x.tags ? '<div class="tl-tags">' + x.tags.map(function (t) { return '<span class="badge">' + esc(t) + "</span>"; }).join("") + "</div>" : "") +
+        (x.img && M[x.img] ? '<figure class="tl-photo"><button class="shot__frame" type="button" style="--ar:' + M[x.img].w + "/" + M[x.img].h + '" data-lb="' + attr(full(x.img)) + '" data-lb-cap="' + attr(x.imgCap || x.org) + '" aria-label="Enlarge photo: ' + attr(x.imgCap || x.org) + '">' +
+          img(x.img, { alt: x.imgCap || x.org, sizes: "(max-width: 720px) 100vw, 520px" }) + "</button>" + (x.imgCap ? "<figcaption>" + esc(x.imgCap) + "</figcaption>" : "") + "</figure>" : "") +
+        "</div></li>";
     }).join("") + "</ol>";
   };
   R.teaching = function (el) {

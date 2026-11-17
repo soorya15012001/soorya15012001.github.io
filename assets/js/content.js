@@ -30,9 +30,10 @@ window.SITE = {
   /* (html) the "Now playing" strip on the home page */
   now: [
     "<b>PhD, year 3</b> · UIUC",
+    "<b>Co-founder &amp; CTO</b> · ABCGut",
     "<b>2 papers</b> · EMNLP 2026 Main",
     "<b>Best Paper</b> · DAIH @ COLM 2026",
-    "<b>TA</b> · CS 567 Social Signals &amp; Social Media"
+    "<b>TA</b> · CS 567"
   ],
 
   /* (html) News — newest first. date = YYYY-MM */
@@ -47,6 +48,8 @@ window.SITE = {
     { date: "2026-06", text: "Our <a href=\"#p-jmir\">JMIR AI</a> paper — suicidal ideation online through the lens of the Interpersonal Theory of Suicide — is published." },
     { date: "2026-05", text: "<b>Best Paper Honorable Mention</b> at ACM WebSci ’26 in Braunschweig for <a href=\"#p-websci\">detecting early and implicit suicidal ideation</a>.<span class=\"badge badge--award\">Honorable Mention</span>" },
     { date: "2026-05", text: "Started a summer as a <b>Research Scholar at Aalto University</b>, Finland, building MEM-STRESS — a memory-augmented, Oura-grounded stress companion." },
+    { date: "2026-04", text: "<a href=\"https://www.abcgut.com/\" target=\"_blank\" rel=\"noopener\">ABCGut</a>, the gut-health startup I co-founded, won <b>Best Influential Idea (HealthTech)</b> at the Cozad New Venture Challenge 2026.<span class=\"badge badge--award\">Cozad 2026</span>" },
+    { date: "2025-12", text: "Co-founded <a href=\"https://www.abcgut.com/\" target=\"_blank\" rel=\"noopener\">ABCGut</a> — <i>Know Your Gut. Transform Your Health.</i> — as Chief Technology Officer." },
     { date: "2025-12", text: "Papers from my Nimblemind internship at <b>ML4H 2025</b>, <b>IEEE BigData 2025</b> and <b>IEEE BIBM 2025</b>." },
     { date: "2025-08", text: "Fall 2025: teaching assistant for <b>CS 598 — Computing and Wellbeing</b>." },
     { date: "2025-06", text: "Started an AI/ML internship at <b>Nimblemind Inc.</b>" },
@@ -250,6 +253,10 @@ window.SITE = {
     { role: "Graduate Researcher", org: "OnCARE Lab & Crowd Dynamics Lab, UIUC", url: "https://oncare.cs.illinois.edu/", where: "Urbana, IL", when: "Aug 2024 – present", current: true,
       bullets: ["PhD research with Koustuv Saha and Hari Sundaram on how conversational AI responds to people in distress, early and implicit signals of suicidal ideation online, and AI support for online peer supporters.", "Lead or co-lead author on papers at EMNLP, ACM WebSci (Best Paper Honorable Mention), JMIR AI and NLP+CSS @ ACL."],
       tags: ["LLMs", "Mental health", "CSS"] },
+    { role: "Co-founder & Chief Technology Officer", org: "ABCGut", url: "https://www.abcgut.com/", where: "HealthTech startup", when: "Dec 2025 – present", current: true,
+      img: "abcgut-cozad", imgCap: "The ABCGut team at the Cozad New Venture Challenge 2026",
+      bullets: ["Co-founded ABCGut — <i>Know Your Gut. Transform Your Health.</i> — and lead its technology as CTO.", "Won <b>Best Influential Idea (HealthTech)</b> at the Cozad New Venture Challenge 2026."],
+      tags: ["Startup", "HealthTech", "Gut health"] },
     { role: "Research Scholar", org: "Aalto University", url: "https://www.aalto.fi/en", where: "Espoo, Finland", when: "May – Aug 2026",
       bullets: ["Developed <b>MEM-STRESS</b>, a hierarchical memory framework integrating Oura behavioral signals with conversational AI for personalized stress management.", "Ran a controlled user study (N=40): 45% improvement in personalization, 32% increase in behavioral grounding and 50% deeper user engagement versus a baseline chatbot."],
       tags: ["Conversational AI", "Wearables", "User study"] },
@@ -289,6 +296,7 @@ window.SITE = {
     { title: "Best Paper Award — DAIH Workshop @ COLM 2026", note: "“Finding H. pylori in the Fine Print: Evidence-Linked Multi-Agent Case Finding from Gastric Biopsy Reports” · co-author", when: "Oct 2026" },
     { title: "Best Paper Nominee — EMNLP 2026", note: "“LLUMI: Improving LLM Writing Assistance for Mental Health Support with Online Community Feedback” · co-author", when: "Oct 2026" },
     { title: "Best Paper Honorable Mention — ACM Web Science ’26", note: "Best Paper nominee · “Detecting Early and Implicit Suicidal Ideation…” · first author", when: "May 2026" },
+    { title: "Best Influential Idea (HealthTech) — Cozad New Venture Challenge 2026", note: "ABCGut · co-founder &amp; CTO", when: "Apr 2026" },
     { title: "Top 10 — IIT Madras GDC I-NCUBATE", when: "Jan 2022" },
     { title: "Rank 3 — Siemens ITTCP Challenge", when: "Feb 2021" },
     { title: "Top 50 of 39,000 — ZS Prize Hackathon", when: "Jan 2021" },

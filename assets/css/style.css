@@ -370,6 +370,9 @@ a.card:hover, .card--hover:hover { transform: translateY(-3px); box-shadow: var(
 .tl-body ul { margin: 0; padding-left: 1.1em; color: var(--ink-2); display: grid; gap: 5px; }
 .tl-body li::marker { color: var(--turq); }
 .tl-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
+.tl-photo { margin: 16px 0 0; max-width: 520px; }
+.tl-photo .shot__frame { box-shadow: var(--shadow); }
+.tl-photo figcaption { margin-top: 8px; font-size: .84rem; color: var(--ink-3); }
 @media (max-width: 720px) {
   .timeline::before { left: 5px; }
   .tl-item { grid-template-columns: 1fr; padding-left: 28px; }
